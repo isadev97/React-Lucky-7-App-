@@ -5,6 +5,10 @@ import ReactDOM from "react-dom/client";
 function FavoriteColor() {
   const [color, setColor] = useState("red");
 
+  const handleButtonClick = () => {
+    
+  }
+  
   return (
     <>
       <h1>My favorite color is {color}!</h1>

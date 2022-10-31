@@ -1,8 +1,9 @@
 
-import React from "react";
+import React, {useState} from "react";
 import ReactDOM from "react-dom/client";
 
 function Hello(props) {
+  const [darkMode,setDarkMode]=useState(false)
   return <h1>Hello World!</h1>;
 }
 
